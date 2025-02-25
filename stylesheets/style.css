@@ -1,7 +1,13 @@
 @charset "utf-8";
-
+/*========== Page styling ==========*/
 html {
     box-sizing: border-box;
+    background: linear-gradient(to right, #edadad, #edadad 50%, #cbece5 50%, #cbece5);
+    background-image: url(/images/blue_and_pink_headphones.jpg);
+    min-width: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 *, *::before, *::after {
     box-sizing: inherit;
@@ -9,7 +15,7 @@ html {
 body {
     /* border: 3px solid pink; */
     margin: 2rem;
-    padding: 1rem;
+    padding: 1rem 9rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 10px;
