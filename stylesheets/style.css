@@ -6,7 +6,7 @@
 html {
     box-sizing: border-box;
     background: linear-gradient(to right, #edadad, #edadad 50%, #cbece5 50%, #cbece5);
-    background-image: url(/images/blue_and_pink_headphones.jpg);
+    background-image: url(https://lamp.computerstudi.es/~Tineil200299153/css_rockstar/images/blue_and_pink_headphones.jpg);
     min-width: 500px;
     background-attachment: fixed;
     background-position: center;
