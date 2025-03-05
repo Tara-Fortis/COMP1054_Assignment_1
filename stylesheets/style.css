@@ -1,7 +1,8 @@
 @charset "utf-8";
 /*========== Arapey and Limelight ==========*/
 @import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Limelight&display=swap');
-/*========== Page styling ==========*/
+
+/*========== Page styling and Typography ==========*/
 html {
     box-sizing: border-box;
     background: linear-gradient(to right, #edadad, #edadad 50%, #cbece5 50%, #cbece5);
@@ -22,7 +23,7 @@ header {
     padding: 1rem 5%;
 }
 h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-family: "Limelight", serif;
     font-weight: 600;
     font-style: normal;
@@ -30,6 +31,7 @@ h1 {
 }
 h2 {
     margin-top: 0;
+    font-size: 2.25rem;
 }
 main {
     /* border: 3px solid pink; */
@@ -56,11 +58,27 @@ section {
     grid-row: 3;
     justify-self: center;
 }
+h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+aside > img {
+    margin-bottom: 10px;
+}
+h4 {
+    font-family: "Arapey", serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.31rem;
+    margin: 0;
+}
 h5 {
     margin: 0;
+    font-size: 1.1rem;
 }
 section p {
     margin: 0.5rem 0 1rem;
+    font-size: 0.5rem;
 }
 footer {
     grid-column: 1 / 12;
@@ -72,5 +90,3 @@ footer {
     color: #edadad;
     text-align: center;
 }
-
-/*========== Typography ==========*/
